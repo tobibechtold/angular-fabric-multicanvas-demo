@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  height: 100%;
+}
+
+#canvas-root {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
