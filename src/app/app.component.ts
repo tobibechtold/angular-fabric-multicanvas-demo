@@ -40,7 +40,9 @@ export class AppComponent implements OnInit {
       selectable: false
     }));
 
-    this.canvas.add(new fabric.Line([this.canvas.getWidth() - borderTop, borderLeft, this.canvas.getWidth() - borderTop, this.canvas.getHeight() - borderLeft], {
+    this.canvas.add(
+      new fabric.Line(
+        [this.canvas.getWidth() - borderTop, borderLeft, this.canvas.getWidth() - borderTop, this.canvas.getHeight() - borderLeft], {
       strokeDashArray: [5, 5],
       stroke: 'red',
       selectable: false
@@ -52,7 +54,9 @@ export class AppComponent implements OnInit {
       selectable: false
     }));
 
-    this.canvas.add(new fabric.Line([borderTop, this.canvas.getHeight() - borderLeft, this.canvas.getWidth() - borderTop, this.canvas.getHeight() - borderLeft], {
+    this.canvas.add(
+      new fabric.Line(
+        [borderTop, this.canvas.getHeight() - borderLeft, this.canvas.getWidth() - borderTop, this.canvas.getHeight() - borderLeft], {
       strokeDashArray: [5, 5],
       stroke: 'red',
       selectable: false
